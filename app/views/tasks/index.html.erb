@@ -1,0 +1,14 @@
+
+
+<%= link_to 'New Task', new_task_path, remote: true %>
+
+<div id="task-form" style="display:none;"></div>
+
+<h1>Our Tasks</h1>
+
+<div id="tasks">
+	<ul>
+		<%= render @tasks %>
+	</ul>
+</div>
+
